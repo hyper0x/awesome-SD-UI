@@ -39,8 +39,20 @@ CC BY-NC-SA 包括以下元素：
 
 ### 1. Web UI
 
-#### 1.1 插件（extension）
+#### 1.1 衍生版
+- [stable-diffusion-webui-forge](https://github.com/lllyasviel/stable-diffusion-webui-forge)：ControlNet作者的最新力作！Stable Diffusion WebUI Forge是一个基于[Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui)（基于[Gradio](https://www.gradio.app)）的平台，可简化开发、优化资源管理并加快推理速度。“Forge”这个名字的灵感来自“Minecraft Forge”。这个项目旨在成为SD WebUI的Forge。
 
+#### 1.2 插件（extension）
+- [stable-diffusion-webui-localization-zh_Hans](https://github.com/hanamizuki-ai/stable-diffusion-webui-localization-zh_Hans)：简体中文翻译插件。
+- [sd-webui-oldsix-prompt](https://github.com/thisjam/sd-webui-oldsix-prompt)：非常便捷的提示词库插件，话不多说，安装上就知道了。
+- [sd-webui-prompt-all-in-one](https://github.com/Physton/sd-webui-prompt-all-in-one)：旨在提高提示词/反向提示词输入框使用体验的提示词库插件。它拥有更直观、强大的输入界面功能，它提供了自动翻译、历史记录和收藏等功能，它支持多种语言，满足不同用户的需求。
+- [stable-diffusion-webui-wd14-tagger](https://github.com/picobyte/stable-diffusion-webui-wd14-tagger)：图像提示词猜测插件。该插件使用各种模型（例如DeepDanbooru）查询单个或多个图像文件的booru样式标签。
+- [sd-webui-controlnet](https://github.com/Mikubill/sd-webui-controlnet)：Stable Diffusion必备插件！该插件基于[ControlNet](https://github.com/lllyasviel/ControlNet)，以及其他的以注入为基础的控件。ControlNet是一种神经网络结构，通过添加额外条件来控制扩散模型。
+- [adetailer](https://github.com/Bing-su/adetailer)：脸部、手部修复插件。该插件可智能识别人物的脸部、手部等容易出错的部位，进行单独精修重绘，再拼回原图。
+- [sd-webui-inpaint-anything](https://github.com/Uminosachi/sd-webui-inpaint-anything)：此插件基于[Segment Anything](https://github.com/facebookresearch/segment-anything)，可进行图像分割，并可作为蒙版重绘和图片修复的基础。使用Segment Anything，用户只需选择分割后的区域即可指定蒙版，而无需手动划定。这可以显著提高蒙版创建过程的效率和准确性，从而获得更高质量的修复结果，节省时间和精力。
+- [sd-webui-deforum](https://github.com/deforum-art/sd-webui-deforum)：动画生成插件。该插件可实现文本自动生成视频的功能，甚至可将现有的视频转换为动画。
+- [sd-webui-animatediff](https://github.com/continue-revolution/sd-webui-animatediff)：GIF生成插件。该插件可以让你用与生成图像完全相同的方式生成GIF。针对Stable Diffusion WebUI Forge，该插件作者还创建了[sd-forge-animatediff](https://github.com/continue-revolution/sd-forge-animatediff)。
+- [sd-webui-qrcode-toolkit](https://github.com/antfu/sd-webui-qrcode-toolkit)：花式二维码生成插件，可以将图像与二维码结合起来。
 
 ### 2. ComfyUI
 
